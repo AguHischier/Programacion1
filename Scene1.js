@@ -14,7 +14,7 @@ class Scene1 extends Phaser.Scene {
       this.load.image('bobFrenteReposo' , 'assets/BobFrenteReposo.png ');
      // this.load.image('escalera' , 'assets/escalera.png ');
       //this.load.image('escenario' , 'assets/escenario.png ');
-      this.load.image('lentes' , 'assets/lentes2.png ');
+      this.load.image('lentes' , 'assets/Lentes2.png ');
       this.load.image('nena1' , 'assets/nena1.png ');
       this.load.image('nena2' , 'assets/nena2.png ');
       this.load.image('nene1' , 'assets/nene1.png ');
@@ -63,7 +63,7 @@ class Scene1 extends Phaser.Scene {
       this.load.image('barraTransparenteVertical' , 'assets/barraTransparenteVertical.png ');
       this.load.image('mesa' , 'assets/mesa.png ');
       this.load.image('hamb' , 'assets/hamb.png ');
-      this.load.image('tip' , 'assets/tip.png');
+      this.load.image('tip' , 'assets/Tip.png');
       this.load.image('puntaje' , 'assets/Puntaje.png');
       this.load.image('creditos' , 'assets/creditos.jpg ');
       this.load.image('botonMenuPrincipal1' , 'assets/botonMenuPrincipal1.png ');
@@ -91,8 +91,8 @@ class Scene1 extends Phaser.Scene {
       this.load.image('neneenfermo' , 'assets/nenemalo.png')
       this.load.image('botonReintentar2' , 'assets/botonReintentar2.png ');
       this.load.image('parte1' , 'assets/cinematica-1.jpg ');
-      this.load.image('parte2' , 'assets/cinematica-2.jpg ');
-      this.load.image('parte3' , 'assets/cinematica-3.jpg ');
+      this.load.image('parte2' , 'assets/Cinematica-2.jpg ');
+      this.load.image('parte3' , 'assets/Cinematica-3.jpg ');
       this.load.image('informacion', 'assets/Pantallainfo.jpg');
    
     }
