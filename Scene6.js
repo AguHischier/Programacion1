@@ -48,6 +48,9 @@ class Scene6 extends Phaser.Scene {
         ganar = 0;
         totalBuenas = 0;
         tiempoInicial = 30;
+        if(nivel === 3){
+            nivel = 1;
+        }
        
 } );
     

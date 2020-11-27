@@ -360,7 +360,7 @@ class Scene3 extends Phaser.Scene {
     if (nivel === 1){
         mochila = contadorMalas + 1;
     }else{
-        mochila = contadorMalas + 1;
+        mochila = contadorMalas + 2;
     }
     
 
@@ -532,7 +532,7 @@ class Scene3 extends Phaser.Scene {
         if (contadorMalas === 0 || (mochila === 0 && contadorMalas === 0))
         {
             this.scene.pause();
-            nivel = 2;
+            nivel++;
             this.scene.launch('ganar')
           
         
