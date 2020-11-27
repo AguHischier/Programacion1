@@ -40,7 +40,7 @@ class Scene6 extends Phaser.Scene {
         this.scene.stop('nivel1');
         
         this.scene.start('nivel1');
-        
+        // reseteamos los contadores
         mochila = 0;
         contadorMalas = 0;
         contadorBuenas = 0;
@@ -48,8 +48,7 @@ class Scene6 extends Phaser.Scene {
         ganar = 0;
         totalBuenas = 0;
         tiempoInicial = 30;
-        
-        
+       
 } );
     
     var menuPrincipal = this.add.image(650, 570, 'botonMenuPrincipal2').setScale(.7)
@@ -64,6 +63,7 @@ class Scene6 extends Phaser.Scene {
         this.scene.stop('nivel1');
         
         this.scene.start('menu');
+        // reseteamos los contadores
         score = 0;
         mochila = 0;
         contadorMalas = 0;
@@ -72,6 +72,7 @@ class Scene6 extends Phaser.Scene {
         ganar = 0;
         totalBuenas = 0;
         tiempoInicial = 30;
+        nivel = 1;
         
     } );
 
